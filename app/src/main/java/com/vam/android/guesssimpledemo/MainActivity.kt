@@ -40,8 +40,6 @@ class MainActivity : AppCompatActivity() {
         val colorList = guessViewModel.colorList
         var guessList = guessViewModel.resetNotRepeat(ISREPEAT)
 
-
-
         button1 = activityMainBinding.button1
         button2 = activityMainBinding.button2
         button3 = activityMainBinding.button3

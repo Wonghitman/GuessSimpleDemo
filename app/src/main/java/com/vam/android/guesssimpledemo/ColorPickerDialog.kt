@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.app.Dialog
 import android.content.Context
 import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
@@ -37,6 +38,11 @@ class ColorPickerDialog(
             attributes = attributes.apply {
                 y = this@ColorPickerDialog.y.toInt()
             }
+            //Dialog 美化，配合corner round_shape.xml实现 圆角矩形弹窗，更符合现代设计美观
+            //Dialog background 设置为round_shape
+            //黑暗模式如何适配？
+            setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
+
         }
 
         gridView = findViewById(R.id.gridView)

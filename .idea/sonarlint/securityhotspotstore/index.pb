@@ -13,5 +13,7 @@ v
 Fapp/src/main/java/com/vam/android/guesssimpledemo/ColorPickerDialog.kt,6\5\65879490ad8ea6d894f19ac98869484a1c994cae
 q
 Aapp/src/main/java/com/vam/android/guesssimpledemo/ArrayAdapter.kt,3\1\316c8f29fd12d5c83d0edb8e7a973427f9af62a4
-r
-Bapp/src/main/java/com/vam/android/guesssimpledemo/ColumnAdapter.kt,5\3\531cb6d76bef386603965348acd5c6c67f13d82a
+S
+#.idea/sonarlint/issuestore/index.pb,9\f\9fe84ebb15faf917b7def6236dba604453cc61e0
+]
+-.idea/sonarlint/securityhotspotstore/index.pb,8\8\88a9255124c95bdc913197c120a8d560edc59c8e
